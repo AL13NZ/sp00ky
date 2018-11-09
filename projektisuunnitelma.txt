@@ -1,0 +1,10 @@
+Tässä projektissa on osallisena Kim Backman, Tarmo Hiltunen, Anna 
+Kujanpää ja Rosa Engberg.
+
+Projektin alussa teemme kartoitamme riskejä ja lisäämme ne 
+riskienhallintatiedostoon. Dumppaamme kaikki tiedostot repoon.
+
+Otamme ryhmälle sopivat tehtävät backlogista ja jaamme niitä jäsenille. 
+Kokoonnumme mahdollisuuksien mukaan, kuitenkin vähintään kerran 
+viikossa. Kerran viikossa vähintään päivitämme päiväkirjaa, kuitenkin 
+joka perjantai.
