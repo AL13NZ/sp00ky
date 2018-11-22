@@ -13,10 +13,19 @@ body {
 
 h1 {
     color: white;
-    margin-left: 20px;us
+    margin-left: 20px;
 }
 p {
     color: white;
     margin-left: 20px;
 }
 
+.container-fluid {
+		margin: 0.2em;
+}
+
+
+#highlight {
+	background-color: rgba(111, 200, 255, 0.3);
+	border-radius: 0.7em;
+}
