@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang ="fi">
 <head>
-    <title>Tuotteet</title>
+    <title>Yhteydenottolomake</title>
     <style>
     </style>
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -17,18 +17,30 @@
             <a class="navbar-brand" href="index.html">sp00ky</a>
         </div>
         <ul class="nav navbar-nav">
-            <li><a id="highlight" href="tuotteet.html">Tuotteet</a></li>
+            <li><a href="tuotteet.html">Tuotteet</a></li>
             <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
-			<li><a href="palaute.html">Ota yhteyttä</a></li>
+			<li id ="highlight"><a href="palaute.html">Ota yhteyttä</a></li>
             <li><a href="products.html"> <img src="english.png" style="width:1.5em;height:1.5em;border:0;"></a></li>
         </ul>
     </div>
 </nav>
 
 <div class="container">
-    <h1>Tuotteet</h1>
-    <p>Tarkoituksena on tehdä sivut tuoteomistajalle.<br>
-        Testaamme myös tässä linjan vaihtoa.</p>
+    <h1>Yhteydenottolomake</h1>
+    <p>Tämän lomakkeen avulla voit ottaa meihin yhteyttä. Voit antaa palautetta tai esittää kysymyksiä.</p><br>
+	<form action="kiitos.html" method="POST">
+		Nimi:<br>
+		<input type="text" name="nimi"><br>
+		Sähköpostiosoite:<br>
+		<input type="email" name="sposti"><br>
+		Yhteydenoton syy:<br>
+		<input type="radio" name="syy" value="palaute"> Palaute<br>
+		<input type="radio" name="syy" value="kysymys"> Kysymys<br><br>
+		<textarea name="viesti" placeholder="Pidäthän viestisi asiallisina, kiitos! (max. 500 merkkiä)" maxlength="500" rows="10" cols="45"></textarea><br>
+		<input type="submit" value="Lähetä">
+		<input type="reset" value="Nollaa">
+	</form>
+	<br>
 </div>
 <footer> <!-- alatunniste -->
 	<ul>© sp00ky 2018</ul>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang ="fi">
+<head>
+    <title>Yhteydenottolomake</title>
+    <style>
+    </style>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="teksti.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="indexi.html">sp00ky</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact info</a></li>
+			<li><a id="highlight" href="feedback.html">Contact us</a></li>
+            <li><a href="index.html"> <img src="finnish.png" style="width:1.5em;height:1.5em;border:0;"></a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Yhteydenottolomake</h1>
+    <p>Tämän lomakkeen avulla voit ottaa meihin yhteyttä. Voit antaa palautetta tai esittää kysymyksiä.</p><br>
+	<form action="thankyou.html" method="POST">
+		Nimi:<br>
+		<input type="text" name="nimi"><br>
+		Sähköpostiosoite:<br>
+		<input type="email" name="sposti"><br>
+		Yhteydenoton syy:<br>
+		<input type="radio" name="syy" value="palaute"> Palaute<br>
+		<input type="radio" name="syy" value="kysymys"> Kysymys<br><br>
+		<textarea name="viesti" placeholder="Pidäthän viestisi asiallisina, kiitos! (max. 500 merkkiä)" maxlength="500" rows="10" cols="45"></textarea><br>
+		<input type="submit" value="Lähetä">
+		<input type="reset" value="Nollaa">
+	</form>
+	<br>
+</div>
+<footer> <!-- alatunniste -->
+	<ul>© sp00ky 2018</ul>
+</footer>
+</body>
+
+</html>
