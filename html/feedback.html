@@ -26,19 +26,19 @@
 </nav>
 
 <div class="container">
-    <h1>Yhteydenottolomake</h1>
-    <p>Tämän lomakkeen avulla voit ottaa meihin yhteyttä. Voit antaa palautetta tai esittää kysymyksiä.</p><br>
+    <h1>Contact form</h1>
+    <p>With this form you may contact the café directly, whether it considered feedback or questions.</p><br>
 	<form action="thankyou.html" method="POST">
-		Nimi:<br>
-		<input type="text" name="nimi"><br>
-		Sähköpostiosoite:<br>
+		Name:<br>
+		<input type="text" name="name"><br>
+		E-mail address:<br>
 		<input type="email" name="sposti"><br>
-		Yhteydenoton syy:<br>
-		<input type="radio" name="syy" value="palaute"> Palaute<br>
-		<input type="radio" name="syy" value="kysymys"> Kysymys<br><br>
-		<textarea name="viesti" placeholder="Pidäthän viestisi asiallisina, kiitos! (max. 500 merkkiä)" maxlength="500" rows="10" cols="43"></textarea><br>
-		<input type="submit" value="Lähetä">
-		<input type="reset" value="Nollaa">
+		Subject:<br>
+		<input type="radio" name="syy" value="palaute"> Feedback<br>
+		<input type="radio" name="syy" value="kysymys"> Question<br><br>
+		<textarea name="viesti" placeholder="Remember to keep your message proper, thank you! (max. 500 characters)" maxlength="500" rows="10" cols="43"></textarea><br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
 	</form>
 	<br>
 </div>
