@@ -6783,7 +6783,12 @@ p {
   border-width: 0.1em;
 }
 
+#form {
+		text-align: center;
+		display: block;
+}
+
 
 input[type=text], select, textarea {
-		width: 60%
+		width: 70%
 }
