@@ -6760,6 +6760,7 @@ html {
 
 body {
     background-color: rgba(64, 66, 55, 0.66);
+	margin-bottom: 50px;
 }
 
 h1 {
@@ -6773,6 +6774,7 @@ p {
 
 .container-fluid {
 		margin: 0.2em;
+		text-align: center;
 }
 
 
@@ -6789,6 +6791,13 @@ p {
 }
 
 
+
 input[type=text], select, textarea {
 		width: 70%
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	margin-top: 2em;
 }
